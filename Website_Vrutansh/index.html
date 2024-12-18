@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>Web Development Final Exam</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="links">
+                    <li><a href=#home>Home</a></li>
+                    <li><a href=#projects>Projects</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="table">
+                <table class="table" id="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Programming Languages</th>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Created a responsive and dynamic portfolio website</td>
+                        <td>1-11-2024</td>
+                        <td><ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>Neural Network</td>
+                        <td>Created a neural network</td>
+                        <td>15-10-2024</td>
+                        <td><ul>
+                            <li>Python</li>
+                            <li>TensorFlow</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>Resume Builder</td>
+                        <td>Created a responsive and dynamic resume builder website</td>
+                        <td>13-9-2024</td>
+                        <td><ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul></td>
+                    </tr>
+                </table>
+                <button onclick="AddRowFunction()" id="AddRow">Add Row</button>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="div-form">
+                    <form class="form" id="contactform">
+                        <label for="name">Name : </label><input id="name" type="text" placeholder="full name......"><br>
+                        <label for="email">Email : </label><input id="email" type="email" placeholder="Enter your Email....."><br>
+                        <label for="MessageBox">Message : </label><textarea id="MessageBox">
+
+                        </textarea><br>
+                        <input id="submit" type="submit" value="submit">
+                    </form>
+                </div>
+            </section>
+            <section id="List">
+                <div class="Resource-list">
+                    <ul id="Resources">
+                        <li>Metal</li>
+                        <li>Ore</li>
+                        <li>Gold</li>
+                        <li>Platinum</li>
+                    </ul>
+                    <button id="ToggleViewbtn">Show/Hide</button>
+                </div>
+            </section>
+        </main>
+        <button onclick="topFunction()" id="Scrollbtn">TO TOP</button>
+        <footer>
+            <h3>Vrutansh Parmar</h3>
+            <h3>Current Year: 2024</h3>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
